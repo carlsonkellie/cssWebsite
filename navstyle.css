@@ -17,6 +17,10 @@ nav {
     margin: 0;
     overflow: hidden;
 }
+nav p {
+    display: inline-block;
+    font-size: 15px;
+}
 nav ul{
     margin: 0;
     padding: 0;
