@@ -63,7 +63,7 @@ nav  li > ul li a {
 }
 
 nav li:hover {
-    background-color: #666;
+    background-color: blue; /*#666;*/
 }
 nav li:hover > ul{
     position:absolute;
