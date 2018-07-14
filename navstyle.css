@@ -62,7 +62,7 @@ nav  li > ul li a {
     text-decoration: none;
 }
 
-nav li:hover {
+nav a:hover {
     background-color: blue; /*#666;*/
 }
 nav li:hover > ul{
