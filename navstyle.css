@@ -10,8 +10,8 @@ body{
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #34495E;
+    color: #EEEEEE;
     display: block;
     margin: 0;
     overflow: hidden;
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav > ul > li > a {
-    color: #aaa;
+    color: #EEEEEE;
     display: block;
     line-height: 2em;
     padding-top: 9px;
