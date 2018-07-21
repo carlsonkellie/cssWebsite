@@ -14,7 +14,7 @@ nav {
     color: #EEEEEE;
     display: block;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 nav p {
     display: inline-block;
