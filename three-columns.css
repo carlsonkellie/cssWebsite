@@ -7,7 +7,7 @@ ul {
 .column {
     float: left;
     width: 30%;
-    padding: 10px;
+    /*padding: 10px;*/
     /* height: 1000px;  Should be removed. Only for demonstration */
 }
 
