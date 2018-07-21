@@ -1,5 +1,6 @@
 ul {
   list-style-type: none;
+  padding-left: 20px;
 }
 
 /* Create three equal columns that floats next to each other */
