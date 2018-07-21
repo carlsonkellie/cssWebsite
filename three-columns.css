@@ -1,3 +1,7 @@
+ul {
+  list-style-type: none;
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
