@@ -33,6 +33,15 @@ nav ul li {
     transition: all 0.2s;
 }
 
+nav > img {
+    height:1em; 
+    align=middle; 
+    display:inline-block; 
+    padding-left: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;   
+}
+
 nav > ul > li > a {
     color: #EEEEEE;
     display: block;
