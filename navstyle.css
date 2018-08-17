@@ -90,14 +90,6 @@ nav li > ul > li:hover > ul  {
     margin-top:-45px;
 }
 
-nav ul > li.sub{
-    background: url(ic_keyboard_arrow_down_white_18dp.png) right center no-repeat;
-}
-
-nav ul > li.sub li.sub{
-    background: url(ic_keyboard_arrow_right_white_18dp.png) right center no-repeat;
-}
-
 #navbar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
