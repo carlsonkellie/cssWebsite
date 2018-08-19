@@ -24,3 +24,8 @@ ul {
         width: 100%;
     }
 }
+
+.personEmail {
+    color: #16a085;
+    text-decoration: none;
+}
