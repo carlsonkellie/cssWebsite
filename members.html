@@ -5,13 +5,14 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
   </head>
   <body>
+  <div id="myContainer">
     <div id="nav-placeholder"></div>
     <script>
         $(function(){
             $("#nav-placeholder").load("navbar.html");
         });
     </script>
-    <div class="main-content" style="font-family: 'Roboto', 'Helvetica';"> 
+    <div id="myContent" class="main-content" style="font-family: 'Roboto', 'Helvetica';"> 
       <h2 id="subheader">Membership</h2>
       <p> All undergraduate students in Computer Science, Computer Engineering, Computer and Cognitive Science, 
 	    Computational Biology, Digital Media Design, Networked& Social Systems Engineering, 
@@ -40,5 +41,6 @@
             $("#footer-placeholder").load("footer.html");
         });
     </script>
+  </div>
   </body>
 </html>
