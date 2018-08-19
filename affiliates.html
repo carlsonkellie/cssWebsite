@@ -14,7 +14,7 @@
 		});
 	  </script>
     <div id="myContent"> 
-	<div class="main-content"> 
+	<div class="main-content bodyText" style="font-family: 'Roboto', 'Helvetica';"> 
 	    <h2 id="subheader">Affiliates</h2>
 	    <p> The Computer Science Society is one of many student organizations aiming to promote computer science at the University of Pennsylvania. Check out some of the other organizations below! </p>
 	    </br>
@@ -35,6 +35,12 @@
 	    <p> For more information, please visit <a href="http://architechs.seas.upenn.edu/" class="link"> architechs.seas.upenn.edu </a> </p>
 	</div>
     </div>
+	  <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
   </div>
   </body>
 </html>
