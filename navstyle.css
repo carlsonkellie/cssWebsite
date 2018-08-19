@@ -104,11 +104,11 @@ nav li > ul > li:hover > ul  {
 
 #mainTriangleBackground {
     /* Firefox */
-    height: -moz-calc(100% - 18px);
+    height: -moz-calc(100% - 70px);
     /* WebKit */
-    height: -webkit-calc(100% - 18px);
+    height: -webkit-calc(100% - 70px);
     /* Opera */
-    height: -o-calc(100% - 18px);
+    height: -o-calc(100% - 70px);
     /* Standard */
-    height: calc(100% - 18px);   
+    height: calc(100% - 70px);   
 }
