@@ -1,15 +1,40 @@
 <html>
   <head>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	  <link href="three-columns.css" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
 </head>
   </head>
   <body>
+  <div id="myContainer">
     <div id="nav-placeholder"></div>
 	  <script>
 	  	$(function(){
 		  $("#nav-placeholder").load("navbar.html");
 		});
 	  </script>
-    <h2> CSS INITIATIVES PAGE </h2>
+    <div id="myContent"> 
+	<div class="main-content bodyText" style="font-family: 'Roboto', 'Helvetica';"> 
+	    <h2 id="subheader">Initiatives</h2>
+	    <h3 id="subheader">Code Weekend</h3>
+	    <p> Organized by the hacking and learning committee, Code Weekend is a series of workshops held once per semester aimed at getting Penn students with none-to-some coding experience ready for PennApps. Within one weekend, participants will build their very own webapp. Anyone can follow along online, as the series of web development tutorials is free for everyone, but students can also register to attend the workshops in person. </p>
+
+	    <h3 id="subheader">Code@Nite</h3>
+	    <p> Code@Nite is exactly what it sounds like--a gathering of people who code at night (and like food). The social committee hosts this event on a biweekly basis to provide an atmosphere for students to study, code, or simply hang out together while enjoying awesome snacks. In the past, we’ve done McNuggets and Insomnia Cookies. Everyone is welcome!  </p>
+	  
+	    <h3 id="subheader">Coffee Chats</h3>
+	    <p> Around twice a month, the social committee sends out an email where students can sign up to be paired with a random student in the engineering community. Coffee chats are a great way to meet new friends, have great and meaningful conversations, and get free coffee! </p>
+	    
+	    <h3 id="subheader">Faculty Dinners</h3>
+	    <p> Every few weeks, the social committee hosts a nice dinner in the engineering building. We invite a few faculty to share their experiences and life stories with students over a dinner, allowing students interested in academia and research to engage with their favorite professors in a less formal setting. If anything, this is a chance to get to know your professor’s favorite dessert! </p>
+	</div>
+    </div>
+	  <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+  </div>
   </body>
 </html>
