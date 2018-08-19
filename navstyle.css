@@ -10,7 +10,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 nav {
@@ -22,7 +22,7 @@ nav {
 }
 nav p {
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
 }
 nav ul{
     margin: 0;
@@ -116,4 +116,8 @@ nav li > ul > li:hover > ul  {
     height: -o-calc(100vh - 70px);
     /* Standard */
     height: calc(100vh - 70px);   
+}
+
+.bodyText {
+    font-size: 16px;   
 }
