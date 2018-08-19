@@ -6,13 +6,14 @@
 	  <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
   </head>
   <body>
+  <div id="myContainer">
     <div id="nav-placeholder"></div>
     <script>
 	$(function(){
 	    $("#nav-placeholder").load("navbar.html");
 	});
     </script>
-    <div>
+    <div id="myContent">
       <div class="container" style="background-image: url('CSS_Triangles.png'); alt:CSS Home Image; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
         <div class="centered" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);width:100%;">
           <div style="display:flex; height: 30%; justify-content:center">
@@ -44,5 +45,6 @@
             $("#footer-placeholder").load("footer.html");
         });
     </script>
+  </div>
   </body>
 </html>
