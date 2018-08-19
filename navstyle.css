@@ -101,3 +101,14 @@ nav li > ul > li:hover > ul  {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+#mainTriangleBackground {
+    /* Firefox */
+    height: -moz-calc(100% - 18px);
+    /* WebKit */
+    height: -webkit-calc(100% - 18px);
+    /* Opera */
+    height: -o-calc(100% - 18px);
+    /* Standard */
+    height: calc(100% - 18px);   
+}
