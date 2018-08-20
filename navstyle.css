@@ -48,7 +48,7 @@ nav > img {
 
 nav > ul > li > a {
     background-color: #000000;
-    font-color: #EEEEEE;
+    color: #EEEEEE;
     display: block;
     line-height: 3.5em;
     padding-top: 9px;
@@ -70,7 +70,7 @@ nav li > ul li{
 
 nav  li > ul li a {
     background-color: #000000;
-    font-color: #EEEEEE;
+    color: #EEEEEE;
     display: block;
     line-height: 2em;
     padding: 0.5em 2em;
@@ -88,7 +88,7 @@ nav li:hover > ul{
 nav li > ul > li ul  {
     display: none;
     background-color: #000000;
-    font-color: #EEEEEE;
+    color: #EEEEEE;
 }
 nav li > ul > li:hover > ul  {
     position:absolute;
