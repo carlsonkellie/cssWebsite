@@ -70,6 +70,7 @@ nav li > ul li{
 
 nav  li > ul li a {
     background-color: #000000;
+    font-color: #EEEEEE;
     display: block;
     line-height: 2em;
     padding: 0.5em 2em;
